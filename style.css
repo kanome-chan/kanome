@@ -1,15 +1,20 @@
 
+@media screen and (min-width: 780px){
 header{
 	text-decoration: none;
-	
+	position: sticky;
 	text-align: right;
 }
 
-main{
-	text-align: center;
-	margin-bottom:1px;
+.right{
+	padding-top: 50px;
+	padding-left: 700px;
 	}
 
+main{
+	padding-top: 50px;
+	text-align: center;
+}
 .navigation-item{
 	text-decoration: none;
 	color: black;
@@ -24,4 +29,6 @@ a{
 
 footer{
 	text-align: center;
+	padding-top:400px; 
+}
 }
