@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+html,
+
+ body{
+	height: 100%;
+	background: #fff;
+	}
+
+
+ main{
+	max-width: 2500px; 
+	background-color: #fff;
+	/*background-image: url('watasi.jpg');*/
+	background-repeat: no-repeat;
+
+	color: #000;
+	font-size: larger;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	}
+
+
+	footer{
+	background-color: #ffcccc;
+	font-family: "MS Pゴシック",sans-serif;
+	}
+
+
+
+
+
+/*----------------ナビゲーションバー--------------*/
+
+			
+	.wrapper{
+	display: flex;
+	align-items:  center;
+	height: 100%;
+	}
+
+	.content{
+	position: relative;
+	height: 200px;
+	max-width: 2000px;
+	min-width: 300px;
+	width: 100%;
+	background: #fff;
+    -webkit-overflow-scrolling: touch;
+	}
+
+	.header{
+	display: flex;
+	justify-content:  center;
+	align-items: center;
+	height: 100px;
+	background: #fff;
+	}
+
+	.h1{
+	font-weight: bolder;
+	color: #ffcccc;
+	}
+
+	.navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	list-style: none;
+	overflow: auto;
+	background: #ffcccc;
+	border-bottom: 1px solid #ffcccc;
+	}
+
+	.navigation-item{
+	padding: 20px 30px;
+	color: #fff;
+	word-break: keep-all;
+	text-decoration: none;
+	}
+
+	.navigation-item:hover{
+	color: #fff;
+	}
+
+	.button {
+ 	position: relative;
+ 	display: inline-block;
+ 	padding: .7em 4em;
+ 	background: -webkit-linear-gradient(#ffcccc , #ffcccc);
+ 	background: linear-gradient(#ffcccc , #ffcccc);
+ 	border: 1px solid #ffcccc;
+ 	border-radius: 8px;
+ 	color: #fff;
+ 	text-decoration: none;
+  	text-align: center;	
+	}
+
+	.button::after {
+ 	position: absolute;
+  	top: 3px;
+  	right: 3px;
+  	bottom: 3px;
+	left: 3px;
+	content: '';
+  	border: 2px dashed #fff;
+  	color: #ffccff;
+  	border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+	}
+
+
+/*------------------ここまで--------------*/
+
+
+
+
+/*-----------リンクの色-------------*/
+
+	a:link{
+	color: #fff;
+	}
+	
+	a:visited{
+	color: #fff;
+	}
+
+	a:hover{
+	color: #ffffcc;
+	text-decoration: underline;
+	}
+
+	a:active{
+	color: #ffccff;
+	}
+
+
+/*-----------------ここまで--------*/
+
+
+
+
+	img.nyann{
+	max-height: 500px;
+	min-width: 300px;
+	}
+
+
+
+/*---------ヘッダー関連-------*/
+
+h2{
+  padding: 0.5em;/*文字周りの余白*/
+  color: #ffcccc;/*文字色*/
+  border-bottom: solid 3px #ffccff;/*下線*/
+  max-width: 400px;
+}
+
+h3 {
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #000;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 8px #ffccff;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+}
+
+h4{
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #fff;/*文字色*/
+  background: #ffcccc;/*背景色*/
+  border-left: solid 8px #ffffcc;/*左線*/
+  border-bottom: solid 3px #ffccff;/*下線*/
+  max-width: 550px;
+}
+
+h5{
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #000;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 8px #ffccff;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+}
+
+p{
+	font-size: 20px;
+	color: #ff00ff;
+}
+/*---------------fin-------*/
