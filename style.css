@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 780px){
+@media screen and (min-width: 1100px){
 header{
 	text-decoration: none;
 	position: sticky;
@@ -12,18 +12,18 @@ header{
 
 .right{
 	padding-top: 30px;
-	padding-left: 700px;
+	padding-left: 630px;
 
 	}
 	p{
-		padding-right: 300px;
-		font-size: 25px;
+		padding-right: 200px;
+		font-size: 20px;
 		line-height: 10px;
 	}
 
 img.pic{
 	float: left;
-	padding-left: 200px;
+	padding-left: 150px;
 	padding-top:50px;
 }
 
