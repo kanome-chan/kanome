@@ -21,40 +21,6 @@ html{
       transform: translate3d(0, 0, 0);
     }
 }
-@media screen and (min-width: 1100px){
-header{
-	text-decoration: none;
-	position: sticky;
-	text-align: right;
-	background-color: #ffffff;
-	font-family: "Sawarabi Mincho";
-}
-
-.wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
-
-.right{
-	position: absolute;
-	left: 800px;
-	top: 100px;
-	}
-	
-	p{
-		padding-right: 200px;
-		font-size: 20px;
-		line-height: 10px;
-
-	}
-
-
-.head{
-	position: relative;
-	background-image: url(header.jpg);
-	background-size: contain;
-	width: 100%;
-	height: 450px;
-	background-repeat: no-repeat;
-	background-position: 150px 30px;
-}
 
 .maru {
   display: inline-block;
@@ -146,6 +112,84 @@ header{
   color: #ff33a0;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+	position: relative;
+	display: inline-block;
+	transition: 0.5s;
+}
+
+a:hover{
+	color: #ff1493;
+}
+
+footer{
+	text-align: ce
+
+}
+
+
+h1{
+	position: relative;
+}
+h1 span{
+	font-size: 30px;
+}
+
+h1 span:nth-child(1){	left:-4.2em; animation: bound-anim 3.0s 0.0s infinite;}
+h1 span:nth-child(2){	left:-2.8em; animation: bound-anim 3.0s 0.2s infinite;}
+h1 span:nth-child(3){	left:-1.4em; animation: bound-anim 3.0s 0.4s infinite;}
+h1 span:nth-child(4){	left: 0.0em; animation: bound-anim 3.0s 0.6s infinite;}
+h1 span:nth-child(5){	left: 1.4em; animation: bound-anim 3.0s 0.8s infinite;}
+h1 span:nth-child(6){	left: 2.8em; animation: bound-anim 3.0s 1.0s infinite;}
+h1 span:nth-child(7){	left: 4.2em; animation: bound-anim 3.0s 1.2s infinite;}
+
+@keyframes bound-anim {
+	0%,100% {top: 0;transform: scale(1);}
+	30% {top: -25%;}
+	50% {transform: scale(1);}
+	90% {top: 0;transform: scale(1.2,0.8);}
+}
+
+
+@media screen and (min-width: 1200px){
+header{
+	text-decoration: none;
+	position: sticky;
+	text-align: right;
+	background-color: #ffffff;
+	font-family: "Sawarabi Mincho";
+}
+
+.wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
+
+.right{
+	position: absolute;
+	left: 770px;
+	top: 100px;
+	}
+
+	p{
+		padding-right: 200px;
+		font-size: 20px;
+		line-height: 10px;
+
+	}
+
+
+.head{
+	position: relative;
+	background-image: url(header.jpg);
+	background-size: contain;
+	width: 100%;
+	height: 450px;
+	background-repeat: no-repeat;
+	background-position: 150px 30px;
+}
+
+
+
 main{
 	line-height: 70px;
 	padding-top: 50px;
@@ -165,28 +209,8 @@ main{
 	font-size: 80px;
 }
 
-a{
-	text-decoration: none;
-	color: black;
-	position: relative;
-	display: inline-block;
-	transition: 0.5s;
-}
 
-a:hover{
-	color: #ff1493;
-}
 
-footer{
-	text-align: center;
-}
-
-h1{
-	position: relative;
-}
-h1 span{
-	font-size: 30px;
-}
 
 .item:hover{
 	background: #ff1493;
@@ -194,22 +218,86 @@ h1 span{
 	border-radius: 60%;
 }
 
-h1 span:nth-child(1){	left:-4.2em; animation: bound-anim 3.0s 0.0s infinite;}
-h1 span:nth-child(2){	left:-2.8em; animation: bound-anim 3.0s 0.2s infinite;}
-h1 span:nth-child(3){	left:-1.4em; animation: bound-anim 3.0s 0.4s infinite;}
-h1 span:nth-child(4){	left: 0.0em; animation: bound-anim 3.0s 0.6s infinite;}
-h1 span:nth-child(5){	left: 1.4em; animation: bound-anim 3.0s 0.8s infinite;}
-h1 span:nth-child(6){	left: 2.8em; animation: bound-anim 3.0s 1.0s infinite;}
-h1 span:nth-child(7){	left: 4.2em; animation: bound-anim 3.0s 1.2s infinite;}
 
-@keyframes bound-anim {
-	0%,100% {top: 0;transform: scale(1);}
-	30% {top: -25%;}
-	50% {transform: scale(1);}
-	90% {top: 0;transform: scale(1.2,0.8);}
-}
 h5{
 	font-size: 20px;
+	margin-top: 10px;
+}
+h4 {
+  color: #ff1493;
+  border-bottom: dashed 2px #ff1493;
+  font-size: 20px;
+}
+
+span{
+	font-size: 20px;
+	margin-right:2px;
+	display: inline-block;
+	animation:rotate-anime 5s ease-in-out infinite;
+}
+
+@keyframes rotate-anime {
+ 100%{ transform: rotateX(360deg) }
+}
+
+}
+
+
+@media screen and (min-width: 300px){
+header{
+	text-decoration: none;
+	position: sticky;
+	text-align: right;
+	background-color: #ffffff;
+	font-family: "Sawarabi Mincho";
+}
+
+.wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
+
+.right{
+	text-align: center;
+}
+
+	p{
+		padding-right: 200px;
+		font-size: 20px;
+		line-height: 10px;
+
+	}
+
+
+
+
+
+
+main{
+	line-height: 70px;
+	padding-top: 50px;
+	text-align: center;
+	background-color: #fff8ff;
+	padding-bottom:150px;
+	font-family: "Sawarabi Mincho";
+}
+.navigation-item{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	margin-right: 10px;
+	}
+
+.kanome{
+	font-size: 50px;
+}
+
+
+.item:hover{
+	background: #ff1493;
+	height:30px;
+	border-radius: 60%;
+}
+
+h5{
+	font-size: 16px;
 	margin-top: 10px;
 }
 h4 {
